@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: bioio-lif
-  version: 1.4.0
+  version: "1.4.1"
   python_min: 3.10
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/bioio_lif-${{ version }}.tar.gz
-  sha256: 3bc548b5c5dfe83bdba2c8ca30ee0792aa130a53fc25f0ab422a1e3e0cc52014
+  sha256: bb249501f5df54e99db703c4f813dee1fa19e3209a5e8fde07b5f98e89fc1909
 
 build:
   number: 0
