@@ -3,7 +3,7 @@ schema_version: 1
 context:
   name: bioio-lif
   version: "2.0.1"
-  python_min: "3.10"
+  python_min: "3.11"
 
 package:
   name: ${{ name|lower }}
@@ -30,9 +30,9 @@ requirements:
     - bioio-base >=3.0.0
     - dask-core >=2021.4.1
     - fsspec >=2022.8.0
+    - liffile >=2026.2.16
     - numpy >=1.16
     - pyyaml >=6.0
-    - readlif >=0.6.6
     - xarray >=0.16.1
 
 tests:
@@ -44,7 +44,7 @@ tests:
 
 about:
   summary: A BioIO reader plugin for reading LIF (Leica Image File) images.
-  license: GPL-3.0-only
+  license: BSD-3-Clause
   license_file: LICENSE
   homepage: https://github.com/bioio-devs/bioio-lif
 
